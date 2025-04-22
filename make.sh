@@ -20,7 +20,7 @@ locktime=200
 # python ./create_p2sh_cltv_p2pkh_address.py --key $public_key --locktime $locktime
 timelocked_address=$(
   python ./create_timelocked_p2sh.py \
-    --key "$public_keyy" \
+    --key "$public_key" \
     --locktime $locktime \
   | sed -n 's/^Timelocked P2SH Address: //p'
 )
