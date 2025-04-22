@@ -1,6 +1,6 @@
 # activate the conda environment stemmed from ./requirements.txt
 # python version = 3.12.6
-# delete C:\Program Files<USER>\Bitcoin\daemon and let the the following commands be executed
+# delete C:\Program Files\<USER>\Bitcoin\daemon and let the the following commands be executed
 
 # Create a legacy wallet and a legacy address to send the bitcoins to the P2SH address
 bitcoin-cli -regtest createwallet "main_wallet" false false "" false false
