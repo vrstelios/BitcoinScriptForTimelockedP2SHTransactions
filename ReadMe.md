@@ -1,6 +1,6 @@
 # Running the Python Scripts for Timelocked P2SH Transactions
 
-This guide explains how to execute the Python scripts for creating and spending timelocked P2SH addresses, based on the steps outlined in the `e2e_execution.sh` file. Alternatively, you can directly execute the `./e2e_execution.sh` file, which will perform the following steps.
+This guide explains how to execute the Python scripts for creating and spending timelocked P2SH addresses, based on the steps outlined in the `make.sh` file. Alternatively, you can directly execute the `./make.sh` file, which will perform the following steps.
 
 ## Prerequisites
 
